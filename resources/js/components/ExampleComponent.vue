@@ -93,6 +93,14 @@
               </tr>
           </tbody>
       </table>
+    <div>
+
+    <router-link to="/foo/1">Go to Foo</router-link>
+    <router-link to="/bar">Go to Bar</router-link>
+    <router-view></router-view>
+
+    </div>
+
     </div>
 
 
@@ -188,8 +196,6 @@ import axios from 'axios'
                               this.student.class = '';
                             }
             }
-
-
 
            }
 </script>
